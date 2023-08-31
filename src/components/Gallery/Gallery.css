@@ -1,0 +1,9 @@
+.Gallery_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Gallery_wrapper h1 {
+  letter-spacing: 10px;
+}
