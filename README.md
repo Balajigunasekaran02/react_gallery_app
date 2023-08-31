@@ -13,3 +13,7 @@
 
 - Axios => For Api
 - react-router-dom => For Routing
+
+## Demo
+
+<img title="Demo" alt="demo" src="./src/assets/gallery.png">

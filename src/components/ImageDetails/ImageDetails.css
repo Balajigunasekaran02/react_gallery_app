@@ -8,6 +8,9 @@
   font-size: xx-large;
   letter-spacing: 10px;
   color: white;
+  margin: auto;
+  padding: 10px;
+  text-align: center;
 }
 .image_details_wrapper img {
   border-radius: 20px;
