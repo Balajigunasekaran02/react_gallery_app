@@ -30,7 +30,12 @@ function ListImages() {
   return (
     <div className="list_image_wrapper">
       {imageList.map((image) => (
-        <Images key={image.id} imageUrl={image.imageUrl} title={image.title} />
+        <Images
+          key={image.id}
+          imageUrl={image.imageUrl}
+          title={image.title}
+          id={image.id}
+        />
       ))}
     </div>
   );

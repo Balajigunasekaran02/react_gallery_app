@@ -1,9 +1,10 @@
+import { Link } from "react-router-dom";
 import "./Images.css";
-function Images({ imageUrl, title }) {
+function Images({ imageUrl, title, id }) {
   return (
-    <div className="image_wrapper">
+    <Link to={`/photos/${id}`} className="image_wrapper">
       <img src={imageUrl} alt={title} />
-    </div>
+    </Link>
   );
 }
 export default Images;
